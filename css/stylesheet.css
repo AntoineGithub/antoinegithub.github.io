@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.menuBars {
+    display: none;
+}
+
+.slide > img{
+    width: 630px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    .menuBars {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .topnav > div > a {
+        display: none;
+    }
+
+    .topnav.navOpen a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.navOpen > div {
+        float: none;
+    }
+
+    #flexStore {
+        flex-direction: column-reverse;
+    }
+
+    #flexStore > p {
+        width: 75%;
+    }
+
+    #flexIndex {
+        flex-direction: column;
+    }
+
+    #flexIndex > img {
+         margin-right: 0;
+     }
+}
+
+/*
+==============================================
+
+               Background-Color
+
+==============================================
+*/
+
+.bg-g {
+    background-color: #A5CB38;
+}
+
+.bg-wc {
+    background-color: #DBD7BF;
+}
+
+.bg-mc {
+    background-color: #73534E;
+}
+
+.bg-bc {
+    background-color: #281616;
+}
+
+/*
+==============================================
+
+          Background-Color : Hover
+
+==============================================
+*/
+
+.hover-bg-g:hover {
+    background-color: #A5CB38;
+}
+
+.hover-bg-wc:hover {
+    background-color: #DBD7BF;
+}
+
+.hover-bg-mc:hover {
+    background-color: #73534E;
+}
+
+.hover-bg-bc:hover {
+    background-color: #281616;
+}
+
+/*
+==============================================
+
+               Text-Color
+
+==============================================
+*/
+
+.txt-g {
+    color: #A5CB38;
+}
+
+.txt-wc {
+    color: #DBD7BF;
+}
+
+.txt-mc {
+    color: #73534E;
+}
+
+.txt-bc {
+    color: #281616;
+}
+
+/*
+==============================================
+
+            Text-Color : Hover
+
+==============================================
+*/
+
+.hover-txt-g:hover {
+    color: #A5CB38;
+}
+
+.hover-txt-wc:hover {
+    color: #DBD7BF;
+}
+
+.hover-txt-mc:hover {
+    color: #73534E;
+}
+
+.hover-txt-bc:hover {
+    color: #281616;
+}
+
+/*
+==============================================
+
+                  Border-Color
+
+==============================================
+*/
+
+.b--g {
+    color: #A5CB38;
+}
+
+.b--wc {
+    color: #DBD7BF;
+}
+
+.b--mc {
+    color: #73534E;
+}
+
+.b--bc {
+    color: #281616;
+}
