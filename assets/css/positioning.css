@@ -1,0 +1,835 @@
+/*
+==============================================
+
+             Top-Bottom-Left-Right
+
+==============================================
+*/
+
+.top-0 {
+    top: 0
+}
+
+.right-0 {
+    right: 0
+}
+
+.bottom-0 {
+    bottom: 0
+}
+
+.left-0 {
+    left: 0
+}
+
+.top-1 {
+    top: 1rem
+}
+
+.right-1 {
+    right: 1rem
+}
+
+.bottom-1 {
+    bottom: 1rem
+}
+
+.left-1 {
+    left: 1rem
+}
+
+.top-2 {
+    top: 2rem
+}
+
+.right-2 {
+    right: 2rem
+}
+
+.bottom-2 {
+    bottom: 2rem
+}
+
+.left-2 {
+    left: 2rem
+}
+
+.top--1 {
+    top: -1rem
+}
+
+.right--1 {
+    right: -1rem
+}
+
+.bottom--1 {
+    bottom: -1rem
+}
+
+.left--1 {
+    left: -1rem
+}
+
+.top--2 {
+    top: -2rem
+}
+
+.right--2 {
+    right: -2rem
+}
+
+.bottom--2 {
+    bottom: -2rem
+}
+
+.left--2 {
+    left: -2rem
+}
+
+.top-025 {
+    top: .25rem
+}
+
+.right-025 {
+    right: .25rem
+}
+
+.bottom-025 {
+    bottom: .25rem
+}
+
+.left-025 {
+    left: .25rem
+}
+
+.top--025 {
+    top: -0.25rem
+}
+
+.right--025 {
+    right: -0.25rem
+}
+
+.bottom--025 {
+    bottom: -0.25rem
+}
+
+.left--025 {
+    left: -0.25rem
+}
+
+.top-050 {
+    top: .5rem
+}
+
+.right-050 {
+    right: .5rem
+}
+
+.bottom-050 {
+    bottom: .5rem
+}
+
+.left-050 {
+    left: .5rem
+}
+
+.top--050 {
+    top: -0.5rem
+}
+
+.right--050 {
+    right: -0.5rem
+}
+
+.bottom--050 {
+    bottom: -0.5rem
+}
+
+.left--050 {
+    left: -0.5rem
+}
+
+.top-075 {
+    top: .75rem
+}
+
+.right-075 {
+    right: .75rem
+}
+
+.bottom-075 {
+    bottom: .75rem
+}
+
+.left-075 {
+    left: .75rem
+}
+
+.top--075 {
+    top: -0.75rem
+}
+
+.right--075 {
+    right: -0.75rem
+}
+
+.bottom--075 {
+    bottom: -0.75rem
+}
+
+.left--075 {
+    left: -0.75rem
+}
+
+.top--3 {
+    top: -3rem
+}
+
+.right--3 {
+    right: -3rem
+}
+
+.bottom--3 {
+    bottom: -3rem
+}
+
+.left--3 {
+    left: -3rem
+}
+
+.top--4 {
+    top: -4rem
+}
+
+.right--4 {
+    right: -4rem
+}
+
+.bottom--4 {
+    bottom: -4rem
+}
+
+.left--4 {
+    left: -4rem
+}
+
+.top-3 {
+    top: 3rem
+}
+
+.right-3 {
+    right: 3rem
+}
+
+.bottom-3 {
+    bottom: 3rem
+}
+
+.left-3 {
+    left: 3rem
+}
+
+.top-4 {
+    top: 4rem
+}
+
+.right-4 {
+    right: 4rem
+}
+
+.bottom-4 {
+    bottom: 4rem
+}
+
+.left-4 {
+    left: 4rem
+}
+
+.absolute--fill {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+/*
+==============================================
+
+                    Display
+
+==============================================
+*/
+
+.dn {
+    display: none
+}
+
+.di {
+    display: inline
+}
+
+.db {
+    display: block
+}
+
+.dib {
+    display: inline-block
+}
+
+.dit {
+    display: inline-table
+}
+
+.dt {
+    display: table
+}
+
+.dtc {
+    display: table-cell
+}
+
+.dt-row {
+    display: table-row
+}
+
+.dt-row-group {
+    display: table-row-group
+}
+
+.dt-column {
+    display: table-column
+}
+
+.dt-column-group {
+    display: table-column-group
+}
+
+.dt--fixed {
+    table-layout: fixed;
+    width: 100%
+}
+
+/*
+==============================================
+
+                    Flex
+
+==============================================
+*/
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.inline-flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.flex-auto {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0
+}
+
+.flex-none {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none
+}
+
+.flex-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.flex-nowrap {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap
+}
+
+.flex-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse
+}
+
+.flex-column-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse
+}
+
+.flex-row-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.flex-grow-0 {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0
+}
+
+.flex-grow-1 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.flex-shrink-0 {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.flex-shrink-1 {
+    -ms-flex-negative: 1;
+    flex-shrink: 1
+}
+
+.flex-basis-none {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0
+}
+
+.flex-basis-auto {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto
+}
+
+.flex-basis-100 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%
+}
+
+.flex-basis-90 {
+    -ms-flex-preferred-size: 90%;
+    flex-basis: 90%
+}
+
+.flex-basis-80 {
+    -ms-flex-preferred-size: 80%;
+    flex-basis: 80%
+}
+
+.flex-basis-70 {
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 70%
+}
+
+.flex-basis-60 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%
+}
+
+.flex-basis-50 {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%
+}
+
+.flex-basis-40 {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%
+}
+
+.flex-basis-30 {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%
+}
+
+.flex-basis-20 {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%
+}
+
+.flex-basis-10 {
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%
+}
+
+/*
+==============================================
+
+               Alignement
+
+==============================================
+*/
+
+.items-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.items-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.items-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.items-baseline {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.items-stretch {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch
+}
+
+.self-start {
+    -ms-flex-item-align: start;
+    align-self: flex-start
+}
+
+.self-end {
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+.self-center {
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.self-baseline {
+    -ms-flex-item-align: baseline;
+    align-self: baseline
+}
+
+.self-stretch {
+    -ms-flex-item-align: stretch;
+    align-self: stretch
+}
+
+.justify-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.justify-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.justify-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.justify-around {
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+
+.tl {
+    text-align: left
+}
+
+.tr {
+    text-align: right
+}
+
+.tc {
+    text-align: center
+}
+
+.content-start {
+    -ms-flex-line-pack: start;
+    align-content: flex-start
+}
+
+.content-end {
+    -ms-flex-line-pack: end;
+    align-content: flex-end
+}
+
+.content-center {
+    -ms-flex-line-pack: center;
+    align-content: center
+}
+
+.content-between {
+    -ms-flex-line-pack: justify;
+    align-content: space-between
+}
+
+.content-around {
+    -ms-flex-line-pack: distribute;
+    align-content: space-around
+}
+
+.content-stretch {
+    -ms-flex-line-pack: stretch;
+    align-content: stretch
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.mr-auto {
+    margin-right: auto
+}
+
+.ml-auto {
+    margin-left: auto
+}
+
+/*
+==============================================
+
+                   Position
+
+==============================================
+*/
+
+.static {
+    position: static
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.fixed {
+    position: fixed
+}
+
+/*
+==============================================
+
+                   Order
+
+==============================================
+*/
+
+.order-0 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0
+}
+
+.order-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.order-2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.order-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3
+}
+
+.order-4 {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4
+}
+
+.order-5 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5
+}
+
+.order-6 {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6
+}
+
+.order-7 {
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
+    order: 7
+}
+
+.order-8 {
+    -webkit-box-ordinal-group: 9;
+    -ms-flex-order: 8;
+    order: 8
+}
+
+.order-last {
+    -webkit-box-ordinal-group: 100000;
+    -ms-flex-order: 99999;
+    order: 99999
+}
+
+/*
+==============================================
+
+               Overflow
+
+==============================================
+*/
+
+.overflow-visible {
+    overflow: visible
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+.overflow-scroll {
+    overflow: scroll
+}
+
+.overflow-auto {
+    overflow: auto
+}
+
+.overflow-x-visible {
+    overflow-x: visible
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden
+}
+
+.overflow-x-scroll {
+    overflow-x: scroll
+}
+
+.overflow-x-auto {
+    overflow-x: auto
+}
+
+.overflow-y-visible {
+    overflow-y: visible
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll
+}
+
+.overflow-y-auto {
+    overflow-y: auto
+}
+
+.overflow-container {
+    overflow-y: scroll
+}
+
+/*
+==============================================
+
+                    Float
+
+==============================================
+*/
+
+.fl {
+    float: left;
+    _display: inline
+}
+
+.fr {
+    float: right;
+    _display: inline
+}
+
+.fn {
+    float: none
+}
+
+/*
+==============================================
+
+                 Rotation
+
+==============================================
+*/
+
+.rotate-45 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.rotate-135 {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg)
+}
+
+.rotate-180 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.rotate-225 {
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg)
+}
+
+.rotate-270 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg)
+}
+
+.rotate-315 {
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg)
+}
+

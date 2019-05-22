@@ -1,0 +1,208 @@
+/*
+==============================================
+
+                Border-Style
+
+==============================================
+*/
+
+.b--dotted {
+    border-style: dotted
+}
+
+.b--dashed {
+    border-style: dashed
+}
+
+.b--solid {
+    border-style: solid
+}
+
+.b--none {
+    border-style: none
+}
+
+/*
+==============================================
+
+                Box-Shadow
+
+==============================================
+*/
+
+.shadow-0 {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.shadow-1 {
+    -webkit-box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.025);
+    box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.025)
+}
+
+.shadow-2 {
+    -webkit-box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.05)
+}
+
+.shadow-3 {
+    -webkit-box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.1)
+}
+
+.shadow-4 {
+    -webkit-box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.2)
+}
+
+.shadow-5 {
+    -webkit-box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.4)
+}
+
+.shadow-6 {
+    -webkit-box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 .25rem .125rem 0 rgba(0, 0, 0, 0.5)
+}
+
+.shadow-inset-1 {
+    -webkit-box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.025);
+    box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.025)
+}
+
+.shadow-inset-2 {
+    -webkit-box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.05)
+}
+
+.shadow-inset-3 {
+    -webkit-box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.1)
+}
+
+.shadow-inset-4 {
+    -webkit-box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.2)
+}
+
+.shadow-inset-5 {
+    -webkit-box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.4)
+}
+
+.shadow-inset-6 {
+    -webkit-box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 .25rem .125rem 0 rgba(0, 0, 0, 0.5)
+}
+
+/*
+==============================================
+
+                 Opacity
+
+==============================================
+*/
+
+.o-100 {
+    opacity: 1
+}
+
+.o-90 {
+    opacity: .9
+}
+
+.o-80 {
+    opacity: .8
+}
+
+.o-75 {
+    opacity: .75
+}
+
+.o-70 {
+    opacity: .7
+}
+
+.o-60 {
+    opacity: .6
+}
+
+.o-50 {
+    opacity: .5
+}
+
+.o-40 {
+    opacity: .4
+}
+
+.o-30 {
+    opacity: .3
+}
+
+.o-25 {
+    opacity: .25
+}
+
+.o-20 {
+    opacity: .2
+}
+
+.o-15 {
+    opacity: .15
+}
+
+.o-10 {
+    opacity: .1
+}
+
+.o-05 {
+    opacity: .05
+}
+
+.o-025 {
+    opacity: .025
+}
+
+.o-0125 {
+    opacity: .0125
+}
+
+.o-0 {
+    opacity: 0
+}
+
+/*
+==============================================
+
+              Text-Format
+
+==============================================
+*/
+
+.strike {
+    text-decoration: line-through
+}
+
+.underline {
+    text-decoration: underline
+}
+
+.no-underline {
+    text-decoration: none
+}
+
+.ttc {
+    text-transform: capitalize
+}
+
+.ttl {
+    text-transform: lowercase
+}
+
+.ttu {
+    text-transform: uppercase
+}
+
+.ttn {
+    text-transform: none
+}
